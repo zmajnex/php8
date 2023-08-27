@@ -1,11 +1,12 @@
 {
     "name": "nenad/php8",
-    "description": "Examples from the book PHP 8 Objects, Patterns, and Practice, and probably some more",
+    "description": "Examples PHP Objects, Patterns, and probably some more",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Nenad\\Php8\\": "src/"
+            "App\\": "src/",
+            "Test\\": "tests"
         }
     },
     "authors": [
@@ -14,5 +15,8 @@
             "email": "zmajnex@yahoo.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "10",
+        "symfony/var-dumper": "^6.3"
+    }
 }
