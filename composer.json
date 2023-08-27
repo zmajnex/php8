@@ -1,0 +1,18 @@
+{
+    "name": "nenad/php8",
+    "description": "Examples from the book PHP 8 Objects, Patterns, and Practice, and probably some more",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nenad\\Php8\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zmajnex",
+            "email": "zmajnex@yahoo.com"
+        }
+    ],
+    "require": {}
+}
